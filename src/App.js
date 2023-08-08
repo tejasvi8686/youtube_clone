@@ -1,10 +1,11 @@
-import './App.css';
+import "./App.css";
+import { AppContext } from "./context/contextApi";
 
 function App() {
   return (
-    <div className="text-xl bg-white text-g">
-      App
-    </div>
+    <AppContext>
+      <div className="text-xl bg-white text-g">App</div>
+    </AppContext>
   );
 }
 
