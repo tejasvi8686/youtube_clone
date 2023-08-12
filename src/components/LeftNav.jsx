@@ -54,8 +54,13 @@ const LeftNav = () => {
                     );
                 })}
                 <hr className="my-5 border-white/[0.2]" />
-                <div className="text-white/[0.5] text-[12px]">
-                    Clone by: JS Dev Hindi
+                <div className="text-white/[0.6] text-[13px]">
+                    About Press Copyright Contact us Creator Advertise Developers 
+                    <br/> <br/>
+
+                    Term Privacy Policy & Safety How YouTube work Test features  <br/> <br/>
+
+                    2023 Google LLC
                 </div>
             </div>
         </div>
