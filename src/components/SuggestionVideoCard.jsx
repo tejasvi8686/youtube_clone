@@ -3,7 +3,7 @@ import { abbreviateNumber } from "js-abbreviation-number";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
-//import VideoLength from "../shared/videoLength";
+import LenghtVideo from "../shared/LenghtVideo";
 
 const SuggestionVideoCard = ({ video }) => {
   return (
@@ -13,7 +13,12 @@ const SuggestionVideoCard = ({ video }) => {
                   <img
                       className="h-full w-full object-cover"
                       src={video?.thumbnails[0]?.url}
+                      alt="imagesidea"
                   />
+
+                  {video?.lengthSeconds && (
+                    <LenghtVideo time={video?.lengthSeconds} />
+                )}
                  
               </div>
               <div className="flex flex-col ml-3 overflow-hidden">

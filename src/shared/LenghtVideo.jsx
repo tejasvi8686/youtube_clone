@@ -1,7 +1,7 @@
 import React from "react";
 import moment from "moment";
 
-const VideoLength = ({ time }) => {
+const LenghtVideo = ({ time }) => {
     const videoLengthInSeconds = moment()
         ?.startOf("day")
         ?.seconds(time)
@@ -13,13 +13,10 @@ const VideoLength = ({ time }) => {
     );
 };
 
-export default VideoLength;
+export default LenghtVideo;
 
 
 
 // {video?.lengthSeconds && (
 //     <VideoLength time={video?.lengthSeconds} />
 // )}
-
-
-
