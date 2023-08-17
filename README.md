@@ -27,4 +27,4 @@ Responsive Design
 Hashtags
 #React #TailwindCSS #YouTubeClone #WebDev #APIIntegration #ResponsiveDesign #CodePassion #LearningAndGrowing
 
-        ![Screenshot (378)](https://github.com/tejasvi8686/youtube_clone/assets/105453831/809ed63a-7297-4fad-8cd5-22f6b0d86b1f)
+        
